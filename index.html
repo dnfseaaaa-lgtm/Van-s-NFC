@@ -1,0 +1,372 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>NFC Digital Card</title>
+
+    <link rel="stylesheet" href="design.css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- =================================
+         OPTIONAL VIDEO BACKGROUND
+    ================================== -->
+
+    <!--
+    <video class="background-video"
+           autoplay
+           muted
+           loop
+           playsinline>
+
+        <source src="background.mp4"
+                type="video/mp4">
+
+    </video>
+    -->
+
+
+    <!-- =================================
+         BACKGROUND OVERLAY
+    ================================== -->
+
+    <div class="background-overlay"></div>
+
+
+    <!-- =================================
+         MAIN MOBILE CARD
+    ================================== -->
+
+    <main class="mobile">
+
+        <!-- PROFILE -->
+
+        <section class="profile">
+
+            <img src="pf.png"
+                 alt="Profile Picture"
+                 class="profile-picture">
+
+            <h1>
+                Van Allen Poblete
+            </h1>
+
+            <p class="subtitle"></p>
+
+        </section>
+
+
+        <!-- CONTENT -->
+
+        <section class="content">
+
+            <!-- ABOUT -->
+
+            <div class="about">
+
+                <h2>
+                    Hello!👋
+                </h2>
+
+                <p>
+                    Welcome to my digital NFC card.
+                    Connect with me using the links below.
+                </p>
+
+            </div>
+
+
+            <!-- =================================
+                 CONTACT / SOCIAL LINKS
+            ================================== -->
+
+            <div class="links">
+
+                <!-- PHONE -->
+
+                <a href="tel:09686854063"
+                   class="button">
+
+                    <i class="fa-solid fa-phone"></i>
+
+                    <span>Contact Me</span>
+
+                </a>
+
+
+                <!-- EMAIL -->
+
+                <a href="mailto:vhanpoblete@gmail.com"
+                   class="button">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    <span>Email</span>
+
+                </a>
+
+
+                <!-- FACEBOOK -->
+
+                <a href="https://www.facebook.com/P.vhan#"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="button">
+
+                    <i class="fa-brands fa-facebook"></i>
+
+                    <span>Facebook</span>
+
+                </a>
+
+
+                <!-- INSTAGRAM -->
+
+                <a href="https://www.instagram.com/i.xthink/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="button">
+
+                    <i class="fa-brands fa-instagram"></i>
+
+                    <span>Instagram</span>
+
+                </a>
+
+
+                <!-- =================================
+                     PAYMENT QR BUTTONS
+                ================================== -->
+
+                <!-- GCASH -->
+
+                <a href="#gcash"
+                   class="button">
+
+                    <i class="fa-solid fa-money-bill-transfer"></i>
+
+                    <span>Send via GCash</span>
+
+                </a>
+
+
+                <!-- MAYA -->
+
+                <a href="#maya"
+                   class="button">
+
+                    <i class="fa-solid fa-wallet"></i>
+
+                    <span>Send via Maya</span>
+
+                </a>
+
+
+                <!-- RCBC -->
+
+                <a href="#rcbc"
+                   class="button">
+
+                    <i class="fa-solid fa-building-columns"></i>
+
+                    <span>Pay via RCBC</span>
+
+                </a>
+
+
+                <!-- BPI -->
+
+                <a href="#bpi"
+                   class="button">
+
+                    <i class="fa-solid fa-building-columns"></i>
+
+                    <span>Pay via BPI</span>
+
+                </a>
+
+
+                <!-- CIMB -->
+
+                <a href="#cimb"
+                   class="button">
+
+                    <i class="fa-solid fa-building-columns"></i>
+
+                    <span>Pay via CIMB</span>
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- FOOTER -->
+
+        <footer>
+            Tap • Connect • Share
+        </footer>
+
+    </main>
+
+
+    <!-- =================================
+         GCASH QR POPUP
+    ================================== -->
+
+    <div id="gcash" class="qr-modal">
+
+        <div class="qr-box">
+
+            <a href="#"
+               class="qr-close"
+               aria-label="Close">&times;</a>
+
+            <h2>GCash QR Code</h2>
+
+            <p>Scan to send payment</p>
+
+            <img src="gcash-qr.png"
+                 alt="GCash QR Code"
+                 class="gcash-qr">
+
+            <p class="gcash-name">
+                Van Allen Poblete
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =================================
+         MAYA QR POPUP
+    ================================== -->
+
+    <div id="maya" class="qr-modal">
+
+        <div class="qr-box">
+
+            <a href="#"
+               class="qr-close"
+               aria-label="Close">&times;</a>
+
+            <h2>Maya QR Code</h2>
+
+            <p>Scan to send payment</p>
+
+            <img src="maya-qr.png"
+                 alt="Maya QR Code"
+                 class="gcash-qr">
+
+            <p class="gcash-name">
+                Van Allen Poblete
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =================================
+         RCBC QR POPUP
+    ================================== -->
+
+    <div id="rcbc" class="qr-modal">
+
+        <div class="qr-box">
+
+            <a href="#"
+               class="qr-close"
+               aria-label="Close">&times;</a>
+
+            <h2>RCBC QR Code</h2>
+
+            <p>Scan to send payment</p>
+
+            <img src="rcbc-qr.png"
+                 alt="RCBC QR Code"
+                 class="gcash-qr">
+
+            <p class="gcash-name">
+                Van Allen Poblete
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =================================
+         BPI QR POPUP
+    ================================== -->
+
+    <div id="bpi" class="qr-modal">
+
+        <div class="qr-box">
+
+            <a href="#"
+               class="qr-close"
+               aria-label="Close">&times;</a>
+
+            <h2>BPI QR Code</h2>
+
+            <p>Scan to send payment</p>
+
+            <img src="bpi-qr.png"
+                 alt="BPI QR Code"
+                 class="gcash-qr">
+
+            <p class="gcash-name">
+                Van Allen Poblete
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =================================
+         CIMB QR POPUP
+    ================================== -->
+
+    <div id="cimb" class="qr-modal">
+
+        <div class="qr-box">
+
+            <a href="#"
+               class="qr-close"
+               aria-label="Close">&times;</a>
+
+            <h2>CIMB QR Code</h2>
+
+            <p>Scan to send payment</p>
+
+            <img src="cimb-qr.png"
+                 alt="CIMB QR Code"
+                 class="gcash-qr">
+
+            <p class="gcash-name">
+                Van Allen Poblete
+            </p>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+
